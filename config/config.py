@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME" "Laksh")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5722601919").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "
+    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/iro_x_support"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQA834h1XpdY-qfQtLb5cs0aNwkUcddECn1VWY1ntx4oagae7xO1CpMRWrtEZ7imEJsrdJFurO689a96MydBlVKXx1lBLOJCqwsFbbO7sOJQq-SAwsnMT9anu1uniyOQle8TLt80z4rjMEtZYqtNIKaFNQVS-KKN0UJBjf5Qm0ngiVGKda0XL_hhomR67qjKZpS_g1m-pf1QUajAif4F05bKyEcR0MkubPJ9uDs1R629-5Iygj7_Vhpi0zlaaE7RBakuh76ZiI4mbEwSWScPl5kstatC_HSJsUXoGfU9iklM8NVKoZMTbKnlGtpuC7GJjzW8K2RUxkXXlvtZulUsEQk3AAAAAUhhLmcA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
